@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="./assets/js/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="menu-bar">
+        <div id="app-icon" class="menubar-icon">
+            <i class="far fa-images"></i>
+        </div>
+        <h5 class="menubar-title">My Awesome App</h5>
+        <ul>
+            <li><i id="btn-minimize" class="menubar-btn fas fa-minus"></i></li>
+            <li><i id="btn-maximize" class="menubar-btn far fa-window-maximize"></i></li>
+            <li><i id="btn-close" class="menubar-btn fas fa-times"></i></li>
+        </ul>
+    </div>
+
+    <div id="gallery-box" style="clear: left;">
+
+        <div id="images-gallery" class="images-gallery">
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+
+</html>
